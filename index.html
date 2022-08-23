@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Add a link to your custom CSS here -->
+    <link href="\css\main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link src="https://fonts.google.com/specimen/Outfit">
 
     <title>Responsive grid project</title>
 </head>
@@ -12,10 +15,88 @@
 <body>
 
     <!-- Add your markup here -->
+    <header>
+        <nav>
+            <ul>
+                <li>Log in</li>
+                <li>Shop</li>
+                <li>About</li>
+                <li>FAQ</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        
+        <div class="search_shop">
+            <div class="search">
+                <svg></svg><input type="text" name="search" aria-placeholder="Search..." placeholder="Search..." />
+            </div>
+            <svg class="shop"></svg>
+        </div>
+        <div>
+            <h1>PRICKLES & CO.</h1>
+            <h2>We Deliver to Your Doorstep</h2>
+            <h2>Call Us Now!</h2>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="conainer">
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <div class="photos"></div>
+            <div class="rebate"></div>
+            
+            <form>
+                <h2><span>FOR SPECIAL REQUESTS & ORDERS</span></h2>
+                <label name="fName">First Name*</label>
+                    <input type="text" name="fName" id="fName" required />
+                <label name="lName">Last Name*</label>
+                    <input type="text" name="lName" id="lName" required />
+                <label name="email">Email*</label>
+                    <input type="email" name="email" id="email" required />
+                <label name="Phone">Phone</label>
+                    <input type="phone" name="phone" id="phone" />
+                <label name="message">Message</label>
+                    <textarea class="textarea"></textarea>
+                <button id="submit">submit</button>
+            </form>
+            <img src="#">
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <span>OUR STORE</span>
+            <span>Address: 500 Terry Francois Street San Francisco, CA 94158</span>
+            <span>Phone: 123-456-7890</span>
+            <span>Email: info@mysite.com</span>
+            <span>OPENING HOURS</span>
+            <span>Mon-Fri: 7am - 10pm<br>
+                    Saturday: 8am - 10pm<br>
+                    Sunday: 8am - 11pm</span>
+            <p>HELP</p>
+            <p>Shipping & Returns</p>
+            <p>Privacy Policy</p>
+            <p>FAQ</p>
+            <h2>SUBSCRIBE</h2>
+            <form>
+                <label name="sub_email">Enter your email here*</label>
+                <input type="sub_email" name="sub_email"/>
+                <button id="subscribe">Subscribe Now</button>
+            </form>
+
+        </div>
 
 
-    <!-- Please leave this in to credit the creators of this design -->
-    <p>This website design was created by Wix.com, and is used here for strictly educational purposes.</p>
+        <!-- Please leave this in to credit the creators of this design -->
+        <p>This website design was created by Wix.com, and is used here for strictly educational purposes.</p>    
+    </footer>
+
 </body>
 
 </html>
