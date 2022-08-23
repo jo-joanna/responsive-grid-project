@@ -1,3 +1,17 @@
 /* Add your CSS here */
 
 /* Dont' forget to link this file to your HTML in the <head> */
+
+
+:root {
+    --headings: 'DynaPuff', cursive;
+    --subheadings-body: 'Outfit', sans-serif;
+    --redBrown: #A05941;
+    --greenBlack: #133032;
+    --lightGrey: #EDEDEE;
+    --white: #FFF;
+    --transparentWhite: rgba(0,0,0,0.75)
+}
+body {
+  
+}
